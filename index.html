@@ -4,12 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Brand</title>
+    <title>HideYourShit - Unblock</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luckiest+Guy">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
     <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
 </head>
 
@@ -19,110 +21,45 @@
             <div
                 class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="contact-us.html" style="color:rgb(255,255,255)!important;">Browser</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html" style="color:rgb(255,255,255)!important;">APP</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact-us.html" style="color:rgb(255,255,255)!important;">WEB</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link text-monospace text-warning" href="contact-us.html" style="color:rgb(255,255,255)!important;">Contact Us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link disabled active" href="contact-us.html" style="color:rgb(255,255,255)!important;">Browser</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link disabled" href="contact-us.html" style="color:rgb(255,255,255)!important;">APP</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link disabled" href="contact-us.html" style="color:rgb(255,255,255)!important;">Unblock</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link text-monospace text-warning disabled" href="contact-us.html" style="color:rgb(255,255,255)!important;">Contact Us</a></li>
                 </ul>
         </div>
         </div>
     </nav>
-    <div class="newsletter-subscribe" style="background-color:rgb(24,81,109);background-image:url(&quot;assets/img/hideyourshit.png&quot;);background-position:center;background-repeat:no-repeat;background-size:cover;height:717px;">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Subscribe for our Newsletter</h2>
-            </div>
-            <div style="height:186px;"></div>
-            <h1 align="center" style="font-family:'Luckiest Guy', cursive;font-size:83px;">HideYourShit</h1>
-            <h1 align="center" style="font-family:'Luckiest Guy', cursive;font-size:53px;">Beta&nbsp;</h1>
-            <h1 align="center"></h1>
-            <form class="form-inline" method="post">
-                <div class="form-group">
-                    <header></header><button class="btn btn-primary" type="submit" style="background-color:rgb(43,47,49)!important;">Learn More</button></div>
-            </form>
-        </div>
-    </div>
-    <main class="page landing-page">
-        <section class="clean-block features" style="background-color:rgb(43,47,49);color:rgb(210,209,209);">
+    <main class="page registration-page">
+        <section class="clean-block clean-form dark" style="background-color:rgb(24,81,109);">
             <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info" style="color:rgb(210,209,209)!important;">Features</h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-5 feature-box"><i class="icon-magnifier icon"></i>
-                        <h4>Complete Privacy</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="fa fa-wifi icon"></i>
-                        <h4>Proxy</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="fa fa-server icon"></i>
-                        <h4>VPN</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-refresh icon"></i>
-                        <h4>MAC Spoofing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                </div>
+                <div class="block-heading"></div>
+                <form method="get" action="continue.php">
+                    <h2 class="text-info" style="color:rgb(33,37,41)!importasnt;" align="center">Unblock A Page</h2>
+                    <div class="form-group"><label for="email">Website Link</label><input class="form-control item" type="text" name="link"></div><a href="http://hideyourshitapp.com/terms_privacy">By unblocking you agree to our Privacy Policy and Terms of Use. (Found here)</a>
+                    <button
+                        class="btn btn-primary btn-block" type="submit">Unblock</button>
+                </form>
+                <form>
+                    <h2 class="text-info" style="color:rgb(33,37,41)!importasnt;" align="center">Doesnt Work?</h2>
+                    <h2 class="text-info" style="color:rgb(33,37,41)!importasnt;" align="center">Want More Privacy?</h2><label href="hideyourshitapp.com/terms_privacy">This is just a taste. If you would like the full mac app which is currently whitelisted please contact beta@hideyourshitapp.com</label></form>
             </div>
         </section>
     </main>
-    <div class="newsletter-subscribe" style="background-color:rgb(24,81,109);">
-        <div class="container">
-            <div class="intro">
-                <h2 class="text-center">Subscribe for our Newsletter</h2>
-            </div>
-            <form class="form-inline" method="post">
-                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email" style="background-color:rgb(43,47,49);"></div>
-                <div class="form-group"><button class="btn btn-primary" type="submit" style="background-color:rgb(43,47,49)!important;">Subscribe </button></div>
-            </form>
-        </div>
+    <div class="footer-basic" style="color:rgb(255,255,255);background-color:rgb(43,47,49);">
+        <footer>
+            <div class="social"><a href="github.com/hideyourshit"><i class="icon ion-social-github"></i></a><a href="twitter.com/hideyourshitapp"><i class="icon ion-social-twitter"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="http://hideyourshitapp.com/index2.html">Home</a></li>
+                <li class="list-inline-item"><a href="http://hideyourshitapp.com/index2.html">Download</a></li>
+                <li class="list-inline-item"><a href="http://hideyourshitapp.com/index2.html">About</a></li>
+                <li class="list-inline-item"><a href="http://hideyourshitapp.com/terms_privacy">Terms</a>&nbsp;of Use</li>
+                <li class="list-inline-item"><a href="http://hideyourshitapp.com/terms_privacy">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Ryan Trattner © 2018</p>
+        </footer>
     </div>
-    <footer class="page-footer dark">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h5>Get started</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sign up</a></li>
-                        <li><a href="#">Downloads</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>About us</h5>
-                    <ul>
-                        <li><a href="#">Company Information</a></li>
-                        <li><a href="#">Contact us</a></li>
-                        <li><a href="#">Reviews</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Support</h5>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Help desk</a></li>
-                        <li><a href="#">Forums</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <h5>Legal</h5>
-                    <ul>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Terms of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright" style="background-color:rgb(24,81,109);">
-            <p>© 2018 Copyright Text</p>
-        </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
 
